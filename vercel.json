@@ -1,0 +1,9 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "blackmamer-studio.html", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/blackmamer-studio.html" }
+  ]
+}
